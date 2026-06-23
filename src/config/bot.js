@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "𝙼𝚊𝚢 𝚝𝚑𝚎 𝚜𝚝𝚊𝚛𝚜 𝚕𝚒𝚐𝚑𝚝 𝚢𝚘𝚞𝚛 𝚝𝚑𝚛𝚎𝚊𝚍.",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: 4,
       },
     ],
   },
@@ -91,7 +91,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
+      primary: "#FFBF00",
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
@@ -167,7 +167,7 @@ export const botConfig = {
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 1000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
